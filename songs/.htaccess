@@ -1,9 +1,8 @@
-# Allow access to all files in the songs folder
-Options +Indexes
-
 # Allow access to the songs folder
 <IfModule mod_autoindex.c>
     Options +Indexes
     IndexOptions FancyIndexing
     IndexIgnore *.mp3 *.wav *.ogg
 </IfModule>
+
+Options +Indexes
