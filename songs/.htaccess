@@ -1,2 +1,6 @@
 Options +Indexes
-IndexOptions FancyIndexing NameWidth=* DescriptionWidth=*
+IndexOptions FancyIndexing
+
+<IfModule mod_autoindex.c>
+    Options +Indexes
+</IfModule>
