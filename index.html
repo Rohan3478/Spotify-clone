@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js</title>
-    <script src="script.js"></script>
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <div class="close">
+                <img src="images/close.svg" alt="">
+            </div>
+            <div class="home">
+                <img width="100" src="images/logo.svg" alt="Logo">
+                <ul>
+                    <li><img src="images/home.svg" alt="Home">Home</li>
+                    <li><img src="images/search.svg" alt="Home">Search</li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="heading">
+
+                    <img src="images/library.svg" alt="">
+                    <h3>Your Library</h3>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 4V20M20 12H4" stroke="#a7a7a7" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Centre</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercont">
+                        <img class="hamburger" src="images/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#919191"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#919191"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="playlist">
+                <h2>Spotify Playlists</h2>
+                <div class="cardcontainer">
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="point"></div>
+                    </div>
+                    <div class="above">
+                        <div class="songinfo"></div>
+                        <div class="playbuttons">
+                            <img width="35" id="previous" src="images/prevsong.svg" alt="">
+                            <img width="35" id="play" src="images/play.svg" alt="">
+                            <img width="35" id="next" src="images/nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img width="25" src="images/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightfooter">
+                <div><span>Company</span></div>
+                <div><span>Communities</span></div>
+                <div><span>Useful Links</span></div>
+                <div><a href="https://www.spotify.com/in-en/about-us/contact/"><span>About</span></a></div>
+                <div><a href="https://artists.spotify.com/home"><span>For Artist</span></a></div>
+                <div><a href="https://support.spotify.com/in-en/"><span>Support</span></a></div>
+                <div><a href="https://www.lifeatspotify.com/"><span>Jobs</span></a></div>
+                <div><a href="https://developer.spotify.com/"><span>Developers</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/free/"><span>Free Mobile App</span></a></div>
+                <div><a href="https://newsroom.spotify.com/"><span>For the Record</span></a></div>
+                <div><a href="https://ads.spotify.com/en-IN/"><span>Advertising</span></a></div>
+                <div><a href="https://investors.spotify.com/home/default.aspx"><span>Investors</span></a></div>
+                <div><a href="https://spotifyforvendors.com/"><span>Vendors</span></a></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
